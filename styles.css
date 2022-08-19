@@ -37,10 +37,9 @@ button{
     padding: 5px 20px;
     font-size: 18px;
     font-family: Roboto, sans-serif;
-    margin-top: 10px;
     font-weight: bold;
     border-radius: 8px;
-    color: #E5E7EB;
+    color: white;
 }
 
 
@@ -79,6 +78,7 @@ button{
 .hero-left > p, a{
     font-size: 18px;
     color: #E5E7EB;
+    margin-bottom: 10px;
 }
 
 .hero-right > img{
@@ -129,4 +129,39 @@ button{
 .quote-sign{
     font-weight: bolder;
     text-align: end;
+}
+
+.cta{
+    margin: 80px 200px;
+    background-color: #3882F6;
+    padding: 40px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 8px;
+}
+
+.cta-text{
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.cta-text > p{
+    font-weight: 100;
+    font-size: 18px;
+    color: rgb(233, 232, 232);
+}
+
+.cta-button{
+    border: 1px solid;
+    border-color: white;
+    border-radius: 8px;
+}
+
+.footer{
+    background-color: #1F2937;
+    text-align: center;
+    padding: 40px;
+    color: #E5E7EB;
 }
