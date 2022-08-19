@@ -93,8 +93,12 @@ button{
 
 .spotlights{
     display: flex;
-    justify-content: space-between;
-    /* flex-wrap: wrap; */
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.spotlight{
+    margin-top: 20px;
 }
 
 .spotlight > img{
@@ -108,4 +112,21 @@ button{
 .spotlight > p{
     color: #74767a;
     max-width: 260px;
+}
+
+.quote{
+    background-color: #E5E7EB;
+    padding: 100px 300px;
+}
+
+.quote-text{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.quote-sign{
+    font-weight: bolder;
+    text-align: end;
 }
